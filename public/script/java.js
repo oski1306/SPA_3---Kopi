@@ -1,4 +1,4 @@
-//Router
+///////////////////////////////////////////////////////////////// Router \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 import About  from './templates/About.js'
 import Portfolio from './templates/Portfolio.js'
 import Contact from './templates/Contact.js'
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 })
 
 
-// Translate Module
+///////////////////////////////////////////////////////////////// Translate Module \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 const defLocalization = "en";
 
