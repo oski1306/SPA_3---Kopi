@@ -1,0 +1,13 @@
+{
+    "translateSite" : "Choose Language",
+    "headers" : "About Me",
+    "headers2" : "Portfolio",
+    "headers3" : "Contact Me",
+    "About" : "About Me",
+    "AboutText" : "About Me",
+    "Portfolio" : "Portfolio",
+    "PortfolioText" : "My Portfolio",
+    "Contact" : "Contact Me",
+    "ContactText" : "Contact me here!",
+    "Foot" : "Created By Oskar Mielnik"
+}

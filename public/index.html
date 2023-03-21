@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/script/styling/styling.css">
+</head>
+<body>
+    <h1>Oskar's Portfolio
+        <p  class ="translate" translateKey="translateSite">Select Language</p>
+        <select changeLanguage class="language-switcher">
+            <option value="en">English</option>
+            <option value="no">Norsk</option>
+        </select>
+    </h1>
+    <nav class="nav" >
+        <a href="/" class="link" data-link translateKey="headers">Om meg</a>
+        <a href="/portfolio"class="link" data-link translateKey="headers2">Portefølje</a>
+        <a href="/contact" class="link" data-link translateKey="headers3">Kontakt meg</a>
+    </nav>
+    <div id="app"></div>
+    <div class="footer" translateKey="Foot">
+        Created by Oskar Mielnik
+    </div>
+   <script type="module" src="./script/java.js"></script>
+</body>
+</html>
