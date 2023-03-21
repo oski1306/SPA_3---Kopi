@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView{
     constructor(){
         super();
-        this.setTitle('Portfolio')
+        this.setTitle('Helseflora')
     }
     async getPage(){
        return `

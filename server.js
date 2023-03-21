@@ -3,10 +3,10 @@ const server = express();
 const path = require('path');
 const port = process.env.PORT || 8080;
 
-server.use('/script', express.static(path.resolve('public', 'script')));
+server.use('/script', express.static(path.resolve(__dirname,'public', 'script')));
 
 server.get('/*', (req,res)=>{
-    res.sendFile(path.resolve('public','index.html'));
+    res.sendFile(path.resolve(__dirname, 'public','index.html'));
 });
 
 server.listen(8080);
