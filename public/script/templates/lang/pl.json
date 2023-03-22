@@ -10,8 +10,13 @@
     "AboutText4" : "W dodatku jestem także związanych z programowaniem w JavaScript (którego użyłem to stworzenia tej aplikacji).",
     "AboutText5" : "Ze wszystkich wyżej wymienionych rzeczy najbardziej interesuje sie modelowaniem 3D w Blenderze i pracy z programami od Adobe.",
     "AboutText6" : "Jeżeli posiadają państwo więcej pytań, prosze udać się do zakładki Kontakt.",
-    "Portfolio" : "Portfolio",
-    "PortfolioText" : "Moje Portfolio",
+    "Portfolio" : "Moje Portfolio",
+    "odText1" : "Na jesieni 2022 dostaliśmy za zadanie stowrzyć dowolny projekt Multimedialny w ramach przedmiotu IKT-prosjekt.",
+    "odText2" : "Wraz z moim kolegom Diogo Duarte postanowiliśmy stowrzyć wirtualny rynek dla modeli 3D.",
+    "odText3" : "Celem było danie użytkownikom możliwości wgrywania oraz ściągania modeli 3D potrzebnych do wykonania rozmaitych projektów.",
+    "odText4" : "Aby stowrzyć strone internetową użyliśmy rozmaitych narzędzi takich jak Three.js(importowanie/eksportowanie oraz wyświetlanie modeli 3D),",
+    "odText5" : "HTML(do zaprojektowania strony internetowej), Blender (do stworzenia modeli 3D) oraz Accurig(do animowania modeli 3D).",
+    "odText6" : "Końcowy rezultat był bardzo zadowalający i poskutkował bardzo dobrą oceną oraz dużą ilością zdobytego doświadczenia.",
     "Contact" : "Kontakt",
     "Foot" : "Stworzone Przez Oskar Mielnik"
 }
