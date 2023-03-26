@@ -27,5 +27,10 @@
     "helseText6" : "Nettsiden har også en fungerende handlekurv.",
     "PortfolioText" : "Min Portefølje",
     "Contact" : "Kontakt Meg På Sosiale Medier",
-    "Foot" : "Laget Av Oskar Mielnik"
+    "Foot" : "Laget Av Oskar Mielnik",
+    "sendMsg" : "Send meg en melding",
+    "name" : "Navn",
+    "email" : "Email",
+    "msg" : "Melding",
+    "sendBtn" : "Send"
 }

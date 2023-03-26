@@ -26,5 +26,10 @@
     "helseText5" : "Działający login dla adminów daje możliwość autoryzowanemu użytkownikowi możliwość usuwać oraz dodawać rośliny.",
     "helseText6" : "Strona internetowa ma również działający koszyk.",
     "Contact" : "Kontakt",
-    "Foot" : "Stworzone Przez Oskar Mielnik"
+    "Foot" : "Stworzone Przez Oskar Mielnik",
+    "sendMsg" : "Wyślij mi wiadomość",
+    "name" : "Imię",
+    "email" : "Email",
+    "msg" : "Wiadomość",
+    "sendBtn" : "Wyślij"
 }

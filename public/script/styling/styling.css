@@ -22,7 +22,7 @@ body {
     background: cornsilk;
     color: black;
     text-decoration: none;
-    margin-left: 330px;
+    margin-left: 500px;
     text-align: center;
 }
 .link:hover{
@@ -31,17 +31,9 @@ body {
 .translate{
     font-size: 15px;
 }
-.title1{
+.title{
     margin-top: 20px;
-    text-align: center;
-}
-.title2{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.title3{
-    margin-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 .port{
@@ -57,26 +49,10 @@ body {
     font-size: 35px;
     text-decoration: none;
     margin-left: 850px;
-    margin-top: 1000px;
     padding-left: 10px;
     padding-right: 10px;
     background-color: burlywood;
     color: black;
-}
-button{
-    margin-left: 300px;
-    margin-top: 150px;
-}
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-bottom: 20px;
-    
 }
 .port:hover{
     cursor: pointer;
@@ -86,15 +62,13 @@ button{
     cursor: pointer;
     color: white;
 }
-i{
-    margin-left: 335px;
-    margin-top: 100px;
-}
-i:hover{
-    cursor: pointer;
-}
 .aboutTxt{
     padding-top: 20px;
+    text-align: center;
+}
+.aboutTxt1{
+    padding-top: 20px;
+    padding-bottom: 200px;
     text-align: center;
 }
 .myPic{
@@ -102,6 +76,10 @@ i:hover{
     padding-top: 20px;
 }
 .odText{
+    text-align: center;
+    padding-top: 20px;
+}
+.odText1{
     text-align: center;
     padding-top: 20px;
 }
@@ -114,4 +92,22 @@ i:hover{
 .helseText{
     text-align: center;
     padding-top: 20px;
+}
+.helseText1{
+    text-align: center;
+    padding-top: 20px;
+}
+.emailForm{
+    position:unset;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}.footerTxt{
+    text-align: center;
+    padding-top: 100px;
 }

@@ -1,7 +1,6 @@
 ///////////////////////////////////////////////////////////////// Router \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 import About  from './templates/About.js'
 import Portfolio from './templates/Portfolio.js'
-import Contact from './templates/Contact.js'
 import PortfolioDetailed from './templates/PortfolioDetailed.js'
 import PortfolioDetailed2 from './templates/PortfolioDetailed2.js'
 
@@ -19,10 +18,6 @@ const router = async() =>{
         {
             path: '/portfolio',
             view : Portfolio
-        },
-        {
-            path: '/contact',
-            view : Contact
         },
         {
             path:'/portDetailed',

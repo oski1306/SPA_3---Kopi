@@ -26,5 +26,10 @@
     "helseText5" : "Working admin login makes it possible for authorized user to add and delete plants. ",
     "helseText6" : "The website also has working shopping cart.",
     "Contact" : "Contact Me On Social Media",
-    "Foot" : "Created By Oskar Mielnik"
+    "Foot" : "Created By Oskar Mielnik",
+    "sendMsg" : "Send me a message",
+    "name" : "Name",
+    "email" : "Email",
+    "msg" : "Message",
+    "sendBtn" : "Send"
 }

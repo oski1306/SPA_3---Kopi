@@ -6,10 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="/script/styling/styling.css">
-    <script src="https://kit.fontawesome.com/e1aca636c3.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+      emailjs.init("tMP2odrOjbhlGRqTt");
+     })();
+    </script>
 </head>
 <body>
-    <h1>Oskar's Portfolio
+    <h1 class="logoTxt">Oskar's Portfolio
         <p  class ="translate" translateKey="translateSite">Select Language</p>
         <select changeLanguage class="language-switcher">
             <option value="en">English</option>
@@ -20,12 +27,48 @@
     <nav class="nav" >
         <a href="/" class="link" data-link translateKey="headers">Om meg</a>
         <a href="/portfolio"class="link" data-link translateKey="headers2">Portefølje</a>
-        <a href="/contact" class="link" data-link translateKey="headers3">Kontakt meg</a>
     </nav>
     <div id="app"></div>
-    <div class="footer" translateKey="Foot">
-        Created by Oskar Mielnik
+    <div class="emailForm">
+        <h3 translateKey="sendMsg">Send Me a Message</h3>
+        <div>
+            <h5 translateKey="name" for="name">Name</h5>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <h5 translateKey="email" for="email">Email</h5>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <h5 translateKey="msg"for="message">Message</h5>
+            <textarea id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button translateKey="sendBtn" class="sendBtn" onclick="sendMail()">Send</button>
+        <div class="footerTxt" translateKey="Foot">
+            Created by Oskar Mielnik
+        </div>
     </div>
    <script type="module" src="./script/java.js"></script>
+   <script>
+    function sendMail(){
+    let params ={
+        name: document.getElementById('name').value,
+        email : document.getElementById('email').value,
+        message: document.getElementById('message').value,
+    }
+    const serviceId = "service_sps6z2t";
+    const templateId= "template_upazwbs";
+
+    emailjs.send(serviceId, templateId, params)
+    .then(
+    res =>{
+        document.getElementById('name').value;
+        document.getElementById('email').value;
+        document.getElementById('message').value;
+        console.log(res);
+        alert('message sent successfully!')
+    });
+    };
+   </script>
 </body>
 </html>

@@ -7,7 +7,7 @@ export default class extends AbstractView{
     }
     async getPage(){
        return `
-       <h2 class="title2" translateKey="Port2">Choose Language to show text/ Wybierz język aby wywyświetlić tekst/ Velg språk for å vise tekst</h2>
+       <h2 class="title" translateKey="Port2">Choose Language to show text/ Wybierz język aby wywyświetlić tekst/ Velg språk for å vise tekst</h2>
        <div class="helsePics">
             <img src="https://cdn.discordapp.com/attachments/358644695360077834/1089522262631272508/Helseflora_1.PNG" width="300px" height="300px">
             <img src="https://cdn.discordapp.com/attachments/358644695360077834/1089522276187254884/Helseflora_2.PNG" width="300px" height="300px">
@@ -19,7 +19,7 @@ export default class extends AbstractView{
        <p class="helseText" translateKey="helseText3"></p>
        <p class="helseText" translateKey="helseText4"></p>
        <p class="helseText" translateKey="helseText5"></p>
-       <p class="helseText" translateKey="helseText6"></p>
+       <p class="helseText1" translateKey="helseText6"></p>
    `;
     }
 }
