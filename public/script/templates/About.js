@@ -7,7 +7,7 @@ export default class extends AbstractView{
     }
     async getPage(){
        return `
-       <h2 class="title3" translateKey="About">Choose Language to show text</h2>
+       <h2 class="title3" translateKey="About">Choose Language to show text/ Wybierz język aby wywyświetlić tekst/ Velg språk for å vise tekst</h2>
        <div class="myPic" >
           <img src="https://cdn.discordapp.com/attachments/358644695360077834/1088079861421191188/Meg.jpg" width="200px" height="200px">
        </div>

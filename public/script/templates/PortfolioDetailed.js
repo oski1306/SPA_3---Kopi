@@ -7,7 +7,7 @@ export default class extends AbstractView{
     }
     async getPage(){
        return `
-       <h2 class="title2">OD Models</h2>
+       <h2 class="title2" translateKey="Port1">Choose Language to show text/ Wybierz język aby wywyświetlić tekst/ Velg språk for å vise tekst</h2>
        <div class="odPics">
             <img src="https://media.discordapp.net/attachments/358644695360077834/1088110759856308385/OD_1.PNG" width="400px" height="200px">
             <img src="https://media.discordapp.net/attachments/358644695360077834/1088110783336034375/OD_2.PNG" width="200px" height="200px">
