@@ -31,18 +31,22 @@
     <div id="app"></div>
     <div class="emailForm">
         <h3 translateKey="sendMsg">Send Me a Message</h3>
+        <br>
         <div>
             <h5 translateKey="name" for="name">Name</h5>
-            <input type="text" id="name">
+            <input type="text" id="name" required>
         </div>
+        <br>
         <div>
             <h5 translateKey="email" for="email">Email</h5>
-            <input type="email" id="email">
+            <input type="email" id="email" required>
         </div>
+        <br>
         <div>
             <h5 translateKey="msg"for="message">Message</h5>
-            <textarea id="message" cols="30" rows="10"></textarea>
+            <textarea id="message" cols="30" rows="10" required></textarea>
         </div>
+        <br>
         <button translateKey="sendBtn" class="sendBtn" onclick="sendMail()">Send</button>
         <div class="footerTxt" translateKey="Foot">
             Created by Oskar Mielnik

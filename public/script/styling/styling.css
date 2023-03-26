@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 0;
 }
 h1{
     background-color: black;
@@ -68,7 +68,7 @@ body {
 }
 .aboutTxt1{
     padding-top: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     text-align: center;
 }
 .myPic{
@@ -100,6 +100,7 @@ body {
 .emailForm{
     position:unset;
     text-align: center;
+    margin-top: 50px;
     padding-bottom: 60px;
     padding-top: 60px;
     background-color: black;
@@ -110,4 +111,13 @@ body {
 }.footerTxt{
     text-align: center;
     padding-top: 100px;
+}
+.sendBtn{
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: cornsilk;
+    color: black;
+}
+.sendBtn:hover{
+    cursor: pointer;
 }
