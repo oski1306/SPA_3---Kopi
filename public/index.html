@@ -34,17 +34,17 @@
         <br>
         <div>
             <h5 translateKey="name" for="name">Name</h5>
-            <input type="text" id="name" required>
+            <input type="text" id="name">
         </div>
         <br>
         <div>
             <h5 translateKey="email" for="email">Email</h5>
-            <input type="email" id="email" required>
+            <input type="email" id="email">
         </div>
         <br>
         <div>
             <h5 translateKey="msg"for="message">Message</h5>
-            <textarea id="message" cols="30" rows="10" required></textarea>
+            <textarea id="message" cols="30" rows="10"></textarea>
         </div>
         <br>
         <button translateKey="sendBtn" class="sendBtn" onclick="sendMail()">Send</button>
@@ -54,6 +54,7 @@
     </div>
    <script type="module" src="./script/java.js"></script>
    <script>
+
     function sendMail(){
     let params ={
         name: document.getElementById('name').value,
@@ -69,8 +70,7 @@
         document.getElementById('name').value;
         document.getElementById('email').value;
         document.getElementById('message').value;
-        console.log(res);
-        alert('message sent successfully!')
+        alert('Message Sent!');
     });
     };
    </script>
