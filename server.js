@@ -9,5 +9,4 @@ server.get('/*', (req,res)=>{
     res.sendFile(path.resolve(__dirname, 'public','index.html'));
 });
 
-server.listen(8080);
 console.log('Server running in port:' + port);
