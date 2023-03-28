@@ -11,22 +11,79 @@ body {
     font-family: sans-serif;
     font-size: 20px;
 }
-.nav{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position:relative;
+nav{
+    padding-top: 10px;
+    height: 80px;
+    width: 100%;
     background-color: cornsilk;
 }
-.link{
-    font-size: 45px;
-    background: cornsilk;
-    color: black;
-    text-decoration: none;
-    margin-left: 500px;
+nav ul {
     text-align: center;
 }
-.link:hover{
-    color: grey;
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    position:static;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: gray;
+}
+@media screen and (max-width:1182px) {
+    nav ul li a {
+        font-size: 38px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1104px) {
+    nav ul li a {
+        font-size: 36px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1024px) {
+    nav ul li a {
+        font-size: 34px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:943px) {
+    nav ul li a {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:864px) {
+    nav ul li a {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:781px) {
+    nav ul li a {
+        font-size: 28px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:704px) {
+    nav ul li a {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:624px) {
+    nav ul li a {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+.language-switcher:hover{
+    cursor: pointer;
 }
 .translate{
     font-size: 15px;
