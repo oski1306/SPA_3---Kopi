@@ -96,28 +96,15 @@ nav ul li a:hover{
 .port{
     border-radius: 100px;
     font-size: 35px;
-    text-decoration: none;
-    margin-left: 650px;
-    background-color: burlywood;
-    color: black;
+    text-align: center;
 }
-.port2{
-    border-radius: 100px;
-    font-size: 35px;
-    text-decoration: none;
-    margin-left: 850px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: burlywood;
-    color: black;
-}
-.port:hover{
+.portBtn:hover{
     cursor: pointer;
-    color: white;
+    color: gray;
 }
-.port2:hover{
-    cursor: pointer;
-    color: white;
+.portBtn{
+    text-decoration: none;
+    color: black;
 }
 .aboutTxt{
     padding-top: 20px;
