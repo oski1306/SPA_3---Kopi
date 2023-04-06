@@ -8,8 +8,11 @@ export default class extends AbstractView{
     async getPage(){
        return `
        <h2 class="title" translateKey="Portfolio">Portfolio</h2>
-       <a href='/portDetailed' class="port" data-link >OD Models</a>
-       <a href='/portDetailed2' class="port2" data-link >Helseflora</a>
+       <div class="port">
+           <a href='/portDetailed' class="portBtn" data-link >OD Models</a>'
+           <br>
+           <a href='/portDetailed2' class="portBtn" data-link >Helseflora</a>
+       </div>
    `;
     }
 }
